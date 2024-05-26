@@ -1,0 +1,37 @@
+UserType (rol)
+	idUserType 
+	description 
+
+Person
+	idPerson 
+	name
+	firstLastName 
+	SecondLastName
+	idUserType
+	password
+
+Dentist extends Person
+	registrationId
+
+Paciente extends Person
+	address
+	identityDocument
+	registrationDate
+
+Admin extends Person
+
+Turno (cita medica)
+        - id: int
+        - pacienteId: int
+        - odontologoId: int
+        - fecha: Date
+        - hora: Time
+
+RolAtencion: disponibilidad doctor
+
+Preguntas:
+- El odontologo es el admin?
+- si tengo 5 odontologos tengo 5 admins?
+
+	
+	

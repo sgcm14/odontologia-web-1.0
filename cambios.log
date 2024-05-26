@@ -207,3 +207,350 @@
 [2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
 [2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
 [2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}
+[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Laura
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=9, numeroMatricula=12345, nombre='Laura', apellido='Tello'}
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:114] Iniciando la operación de eliminación de odontologo con id: 9
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:118] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:125] Odontologo eliminado con éxito.9
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ WARN ] [OdontologoDaoH2:69] No se encontró ningún PACIENTE con el ID proporcionado: 9
+[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:86] Iniciando la operación de actualización de odontologo
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:90] Conexión a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:98] Odontologo actualizado:  ID: 1, NOMBRE: Julia
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Julia', apellido='Perez'}
+[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
+[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
+[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 4
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}
+[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Diane
+[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Sammy
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=4, nombre='Sammy', apellido='Cantoral', cedula='984512', fechaIngreso=2024-05-18, domicilio=Domicilio{id=4, calle='Cerro colorado', numero=8, localidad='Surco', provincia='PERU'}}
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:129] Iniciando la operación de eliminación de paciente con id: 4
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:148] Paciente eliminado con éxito.
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:154] Domicilio eliminado con éxito.4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:29] [ WARN ] [DomicilioDaoH2:156] No se encontró ningún DOMICILIO con el ID proporcionado: 4
+[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
+[2024-05-25 17:40:29] [ WARN ] [PacienteDAOH2:66] No se encontró ningún PACIENTE con el ID proporcionado: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
+[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:78] Iniciando la operación de actualización de paciente
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:83] Conexión a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:89] Paciente encontrado con ID: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:98] Iniciando la operación de actualización de domicilio3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:102] Conexión a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:126] Domicilio actualizado: 3
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:107] Paciente actualizado:  ID: 3, NOMBRE: Jane
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='Jane', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Nueva Calle', numero=123, localidad='Piura', provincia='USA'}}
+[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Amalia
+[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:182] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 1
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 2
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:202] Pacientes encontrados[Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{id=1, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=2, nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{id=2, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}]
+[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
+[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
+[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}
+[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Laura
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=9, numeroMatricula=12345, nombre='Laura', apellido='Tello'}
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:114] Iniciando la operación de eliminación de odontologo con id: 9
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:118] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:125] Odontologo eliminado con éxito.9
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ WARN ] [OdontologoDaoH2:69] No se encontró ningún PACIENTE con el ID proporcionado: 9
+[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:86] Iniciando la operación de actualización de odontologo
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:90] Conexión a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:98] Odontologo actualizado:  ID: 1, NOMBRE: Julia
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 1
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Julia', apellido='Perez'}
+[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
+[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 4
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}
+[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Diane
+[2024-05-25 19:17:09] [ WARN ] [BD:50] Tabla "TURNO" no encontrada
+Table "TURNO" not found; SQL statement:
+INSERT INTO TURNO (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,currentTimestamp);  [42102-224]
+[2024-05-25 19:17:59] [ WARN ] [BD:50] Columna "CURRENTTIMESTAMP" no encontrada
+Column "CURRENTTIMESTAMP" not found; SQL statement:
+INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,currentTimestamp);  [42122-224]
+[2024-05-25 19:19:33] [ WARN ] [BD:50] Error de Sintaxis en sentencia SQL "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new [*]Timestamp(System.currentTimeMillis()); "; se esperaba "(, ., [, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new [*]Timestamp(System.currentTimeMillis()); "; expected "(, ., [, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new Timestamp(System.currentTimeMillis());  [42001-224]
+[2024-05-25 19:21:19] [ WARN ] [BD:50] Error de Sintaxis en sentencia SQL "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 [*]19:19:33); "; se esperaba "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 [*]19:19:33); "; expected "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 19:19:33);  [42001-224]
+[2024-05-25 19:26:54] [ INFO ] [BD:52] tabla creada con exito
+[2024-05-25 19:33:14] [ INFO ] [BD:52] tabla creada con exito
+[2024-05-25 19:35:24] [ INFO ] [BD:52] tabla creada con exito
