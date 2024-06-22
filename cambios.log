@@ -1,556 +1,400 @@
-[2024-05-25 17:22:14] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Laura
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=9, numeroMatricula=12345, nombre='Laura', apellido='Tello'}
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:114] Iniciando la operación de eliminación de odontologo con id: 9
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:118] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:125] Odontologo eliminado con éxito.9
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ WARN ] [OdontologoDaoH2:69] No se encontró ningún PACIENTE con el ID proporcionado: 9
-[2024-05-25 17:22:14] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:86] Iniciando la operación de actualización de odontologo
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:90] Conexión a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:98] Odontologo actualizado:  ID: 1, NOMBRE: Julia
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 1
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Julia', apellido='Perez'}
-[2024-05-25 17:22:14] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:22:14] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 4
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}
-[2024-05-25 17:22:14] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:22:14] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Diane
-[2024-05-25 17:22:44] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Sammy
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=4, nombre='Sammy', apellido='Cantoral', cedula='984512', fechaIngreso=2024-05-18, domicilio=Domicilio{id=4, calle='Cerro colorado', numero=8, localidad='Surco', provincia='PERU'}}
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:129] Iniciando la operación de eliminación de paciente con id: 4
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:148] Paciente eliminado con éxito.
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:154] Domicilio eliminado con éxito.4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ WARN ] [DomicilioDaoH2:156] No se encontró ningún DOMICILIO con el ID proporcionado: 4
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
-[2024-05-25 17:22:44] [ WARN ] [PacienteDAOH2:66] No se encontró ningún PACIENTE con el ID proporcionado: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:78] Iniciando la operación de actualización de paciente
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:83] Conexión a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:89] Paciente encontrado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:98] Iniciando la operación de actualización de domicilio3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:102] Conexión a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:126] Domicilio actualizado: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:107] Paciente actualizado:  ID: 3, NOMBRE: Jane
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='Jane', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Nueva Calle', numero=123, localidad='Piura', provincia='USA'}}
-[2024-05-25 17:22:44] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Amalia
-[2024-05-25 17:22:44] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:182] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 1
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 2
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:202] Pacientes encontrados[Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{id=1, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=2, nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{id=2, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}]
-[2024-05-25 17:22:44] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:22:44] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:22:44] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}
-[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Laura
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=9, numeroMatricula=12345, nombre='Laura', apellido='Tello'}
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:114] Iniciando la operación de eliminación de odontologo con id: 9
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:118] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:125] Odontologo eliminado con éxito.9
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ WARN ] [OdontologoDaoH2:69] No se encontró ningún PACIENTE con el ID proporcionado: 9
-[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:86] Iniciando la operación de actualización de odontologo
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:90] Conexión a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:98] Odontologo actualizado:  ID: 1, NOMBRE: Julia
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 1
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Julia', apellido='Perez'}
-[2024-05-25 17:40:28] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:40:28] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 4
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}
-[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:40:29] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Diane
-[2024-05-25 17:40:29] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Sammy
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=4, nombre='Sammy', apellido='Cantoral', cedula='984512', fechaIngreso=2024-05-18, domicilio=Domicilio{id=4, calle='Cerro colorado', numero=8, localidad='Surco', provincia='PERU'}}
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:129] Iniciando la operación de eliminación de paciente con id: 4
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:148] Paciente eliminado con éxito.
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:154] Domicilio eliminado con éxito.4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:143] Iniciando la operación de eliminación de domicilio con id: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:147] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:29] [ WARN ] [DomicilioDaoH2:156] No se encontró ningún DOMICILIO con el ID proporcionado: 4
-[2024-05-25 17:40:29] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 4
-[2024-05-25 17:40:29] [ WARN ] [PacienteDAOH2:66] No se encontró ningún PACIENTE con el ID proporcionado: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 4
-[2024-05-25 17:40:29] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:78] Iniciando la operación de actualización de paciente
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:83] Conexión a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:89] Paciente encontrado con ID: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:98] Iniciando la operación de actualización de domicilio3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:102] Conexión a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:126] Domicilio actualizado: 3
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:107] Paciente actualizado:  ID: 3, NOMBRE: Jane
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='Jane', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Nueva Calle', numero=123, localidad='Piura', provincia='USA'}}
-[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 4
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:Amalia
-[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:182] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 1
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 2
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:202] Pacientes encontrados[Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='123456', fechaIngreso=2024-05-15, domicilio=Domicilio{id=1, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=2, nombre='Claudia', apellido='Heredia', cedula='11111111', fechaIngreso=2024-05-10, domicilio=Domicilio{id=2, calle='Siempre viva', numero=742, localidad='Springfield', provincia='USA'}}, Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}]
-[2024-05-25 17:40:30] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:21] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:25] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:37] Domicilio guardado con ID: 3
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de guardado
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:27] Conexion a la BD PACIENTES establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:39] Paciente guardado:John
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:49] iniciando la busqueda de un paciente por id: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:53] iniciando la busqueda de un domicilio por id: 3
-[2024-05-25 17:40:30] [ INFO ] [DomicilioDaoH2:59] Conexion a la BD DOMICILIOS establecida
-[2024-05-25 17:40:30] [ INFO ] [PacienteDAOH2:64] PACIENTE encontrado: Paciente{id=3, nombre='John', apellido='Doe', cedula='987654321', fechaIngreso=2024-05-18, domicilio=Domicilio{id=3, calle='Calle Falsa', numero=123, localidad='Springfield', provincia='USA'}}
-[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Laura
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=9, numeroMatricula=12345, nombre='Laura', apellido='Tello'}
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:114] Iniciando la operación de eliminación de odontologo con id: 9
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:118] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:125] Odontologo eliminado con éxito.9
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 9
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ WARN ] [OdontologoDaoH2:69] No se encontró ningún PACIENTE con el ID proporcionado: 9
-[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:86] Iniciando la operación de actualización de odontologo
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:90] Conexión a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:98] Odontologo actualizado:  ID: 1, NOMBRE: Julia
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 1
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Julia', apellido='Perez'}
-[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:148] Conexion a la BD Odontologos establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:166] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}, Odontologo{id=5, numeroMatricula=2, nombre='Maria', apellido='Gomez'}, Odontologo{id=6, numeroMatricula=3, nombre='Martha', apellido='Gomez'}, Odontologo{id=7, numeroMatricula=4, nombre='Juan', apellido='Gomez'}, Odontologo{id=8, numeroMatricula=5, nombre='Peter', apellido='Gomez'}]
-[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:49] iniciando la busqueda de un odontologo por id: 4
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:54] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:67] PACIENTE encontrado: Odontologo{id=4, numeroMatricula=1, nombre='Ana', apellido='Gomez'}
-[2024-05-25 17:41:27] [ INFO ] [BD:37] tabla creada con exito
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Ana
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Maria
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Martha
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Juan
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Peter
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:24] iniciando la operacion de guardado
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:29] Conexion a la BD ODONTOLOGOS establecida
-[2024-05-25 17:41:27] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado:Diane
-[2024-05-25 19:17:09] [ WARN ] [BD:50] Tabla "TURNO" no encontrada
-Table "TURNO" not found; SQL statement:
-INSERT INTO TURNO (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,currentTimestamp);  [42102-224]
-[2024-05-25 19:17:59] [ WARN ] [BD:50] Columna "CURRENTTIMESTAMP" no encontrada
-Column "CURRENTTIMESTAMP" not found; SQL statement:
-INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,currentTimestamp);  [42122-224]
-[2024-05-25 19:19:33] [ WARN ] [BD:50] Error de Sintaxis en sentencia SQL "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new [*]Timestamp(System.currentTimeMillis()); "; se esperaba "(, ., [, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
-Syntax error in SQL statement "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new [*]Timestamp(System.currentTimeMillis()); "; expected "(, ., [, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
-INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,new Timestamp(System.currentTimeMillis());  [42001-224]
-[2024-05-25 19:21:19] [ WARN ] [BD:50] Error de Sintaxis en sentencia SQL "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 [*]19:19:33); "; se esperaba "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
-Syntax error in SQL statement "INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 [*]19:19:33); "; expected "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
-INSERT INTO TURNOS (PACIENTE_ID, ODONTOLOGO_ID, FECHA_HORA_CITA) VALUES(1,2,2024-05-25 19:19:33);  [42001-224]
-[2024-05-25 19:26:54] [ INFO ] [BD:52] tabla creada con exito
-[2024-05-25 19:33:14] [ INFO ] [BD:52] tabla creada con exito
-[2024-05-25 19:35:24] [ INFO ] [BD:52] tabla creada con exito
+[2024-05-27 23:06:09] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:13:08] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:14:20] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:15:35] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:15:35] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:15:35] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:15:53] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:16:01] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:16:01] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:16:01] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:17:53] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:18:11] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:18:11] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:18:11] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:18:36] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:18:46] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:18:46] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:18:46] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:19:12] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:19:25] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:19:25] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:19:25] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:20:23] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:20:33] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:20:33] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:20:33] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:24:08] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:24:20] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:24:20] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:24:20] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Juanito
+[2024-05-27 23:26:05] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:26:23] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:26:23] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:26:23] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-27 23:29:07] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:29:17] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:29:17] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:29:17] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-27 23:30:14] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:30:24] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:30:24] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:30:24] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-27 23:40:58] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-27 23:41:45] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-27 23:41:45] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:41:45] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-27 23:43:25] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-27 23:43:25] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}, Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}]
+[2024-05-27 23:44:34] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 2
+[2024-05-27 23:44:34] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:44:34] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}
+[2024-05-27 23:50:26] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-27 23:50:26] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:50:26] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-27 23:51:39] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-27 23:51:39] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:51:39] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-27 23:51:39] [ INFO ] [OdontologoDaoH2:88] iniciando la actualizacion de : Carolina con id : 3
+[2024-05-27 23:51:39] [ WARN ] [OdontologoDaoH2:101] Valor Invalido "7" para el parametro "parameterIndex"
+Invalid value "7" for parameter "parameterIndex" [90008-224]
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:108] Iniciando la operación de eliminación de odontologo con id: 3
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:112] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-27 23:52:03] [ INFO ] [OdontologoDaoH2:119] Odontologo eliminado con éxito.3
+[2024-05-27 23:52:16] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-27 23:52:16] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}]
+[2024-05-28 00:00:21] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-28 00:01:41] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-28 00:01:41] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:01:41] [ WARN ] [OdontologoDaoH2:70] No se encontró ningún PACIENTE con el ID proporcionado: 3
+[2024-05-28 00:02:34] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-28 00:02:34] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:02:34] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-28 00:03:24] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 1
+[2024-05-28 00:03:24] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:03:24] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}
+[2024-05-28 00:03:40] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 1
+[2024-05-28 00:03:40] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:03:40] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}
+[2024-05-28 00:04:39] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-28 00:04:50] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 2
+[2024-05-28 00:04:50] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:04:50] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}
+[2024-05-28 00:04:50] [ INFO ] [OdontologoDaoH2:88] iniciando la actualizacion de : Carolina con id : 2
+[2024-05-28 00:04:50] [ WARN ] [OdontologoDaoH2:101] Valor Invalido "7" para el parametro "parameterIndex"
+Invalid value "7" for parameter "parameterIndex" [90008-224]
+[2024-05-28 00:05:06] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-28 00:05:06] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:05:06] [ WARN ] [OdontologoDaoH2:70] No se encontró ningún PACIENTE con el ID proporcionado: 3
+[2024-05-28 00:05:19] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-28 00:05:19] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}]
+[2024-05-28 00:05:40] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-28 00:05:40] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}]
+[2024-05-28 00:09:51] [ WARN ] [BD:54] La base de datos puede que ya esté siendo utilizada: "/Users/anahiantoalzamora/C2ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "/Users/anahiantoalzamora/C2ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-28 00:10:34] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-28 00:10:34] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=10056, nombre='Carolina', apellido='Gutierrez'}]
+[2024-05-28 00:18:35] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-28 00:18:35] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:18:35] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:50] iniciando la busqueda de un odontologo por id: 3
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:55] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:68] PACIENTE encontrado: Odontologo{id=3, numeroMatricula=10003, nombre='Luisito', apellido='Jimenez'}
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:108] Iniciando la operación de eliminación de odontologo con id: 3
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:112] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-28 00:18:41] [ INFO ] [OdontologoDaoH2:119] Odontologo eliminado con éxito.3
+[2024-05-29 21:07:00] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:07:29] [ INFO ] [OdontologoDaoH2:142] Conexion a la BD Odontologos establecida
+[2024-05-29 21:07:29] [ INFO ] [OdontologoDaoH2:160] Odontologos encontrados[Odontologo{id=1, numeroMatricula=123456, nombre='Pepe', apellido='Perez'}, Odontologo{id=2, numeroMatricula=123456, nombre='John', apellido='Doe'}]
+[2024-05-29 21:12:09] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:12:52] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:14:00] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:14:01] [ WARN ] [BD:54] La base de datos puede que ya esté siendo utilizada: "/Users/anahiantoalzamora/C2ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "/Users/anahiantoalzamora/C2ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-29 21:14:16] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:15:03] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 21:15:03] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 21:15:03] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 21:18:47] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:46:21] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:46:54] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 21:46:54] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 21:46:54] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 21:50:47] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:51:36] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 21:51:46] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 21:51:46] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 21:51:46] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 21:51:46] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 21:51:46] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 21:51:46] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 21:52:11] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 21:52:11] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 21:52:11] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:03:58] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:04:09] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:04:15] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:05:55] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:06:09] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:06:09] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:06:09] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:06:09] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:06:09] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:06:09] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:06:24] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:06:24] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:06:24] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:07:43] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:18:25] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:19:14] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:19:14] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:19:14] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:19:14] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:19:14] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:19:14] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:19:20] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:19:20] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:19:20] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:23:02] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:23:32] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:23:32] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:23:32] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:23:32] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:23:32] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:23:32] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:23:36] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:23:36] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:23:36] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:23:53] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:24:11] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:24:11] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:24:11] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:24:11] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:24:11] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:24:11] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:24:18] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:24:18] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:24:18] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:28:52] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:29:02] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:29:02] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:29:02] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:29:02] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:29:02] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:29:02] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:29:09] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:29:09] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:29:09] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:29:49] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:29:49] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:29:49] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 4
+[2024-05-29 22:29:49] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:29:49] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:29:49] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:29:55] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:29:55] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:29:55] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:30:52] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:31:00] [ INFO ] [DomicilioDaoH2:22] iniciando la operacion de guardado
+[2024-05-29 22:31:00] [ INFO ] [DomicilioDaoH2:26] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:31:00] [ INFO ] [DomicilioDaoH2:38] Domicilio guardado con ID: 3
+[2024-05-29 22:31:00] [ INFO ] [PacienteDAOH2:24] iniciando la operacion de guardado
+[2024-05-29 22:31:00] [ INFO ] [PacienteDAOH2:28] Conexion a la BD PACIENTES establecida
+[2024-05-29 22:31:00] [ INFO ] [PacienteDAOH2:40] Paciente guardado:Juanita
+[2024-05-29 22:31:06] [ INFO ] [OdontologoDaoH2:25] iniciando la operacion de guardado
+[2024-05-29 22:31:06] [ INFO ] [OdontologoDaoH2:30] Conexion a la BD ODONTOLOGOS establecida
+[2024-05-29 22:31:06] [ INFO ] [OdontologoDaoH2:40] Odontologo guardado:Luisito
+[2024-05-29 22:31:39] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:31:59] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:33:01] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:34:46] [ INFO ] [BD:51] tabla creada con exito
+[2024-05-29 22:36:58] [ INFO ] [BD:51] tabla creada con exito
+[2024-06-05 21:44:48] [ INFO ] [BD:51] tabla creada con exito
+[2024-06-12 15:45:11] [ ERROR] [GlobalExceptionHandler:17] No static resource odontologossdfsdf.
+[2024-06-12 15:48:38] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 15:49:22] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 15:49:25] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:08:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:08:59] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:17] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:20] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:26] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:28] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:29] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:32] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:36] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:39] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:09:56] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:10:00] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:10:07] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:10:10] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:15] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:20] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:42] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:44] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:49] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:56] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:25:59] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:26:12] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:26:18] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:34:31] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:34:49] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:34:51] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:34:56] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:34:58] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:35:03] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:35:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:35:31] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:35:43] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:35:46] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:36:17] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:36:20] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:42:27] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:42:44] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:03] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:14] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:16] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:19] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:33] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:43:37] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:44:42] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:26] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:29] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:47] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:49] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:51:57] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:02] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:04] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:11] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:20] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:22] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:34] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:37] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:52:57] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 16:53:07] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:13:48] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:13:56] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:13] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:15] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:21] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:27] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:29] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:32] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:14:41] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:15:02] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:15:04] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:19:00] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:19:12] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:19:15] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:12] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:31] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:33] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:39] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:46] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:49] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:34:53] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:35:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:35:09] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:10] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:28] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:50] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:52] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:37:59] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:03] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:15] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:18] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:24] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:35] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:52] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:38:55] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:39:12] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:39:28] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:44:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:58:36] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:58:38] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 17:58:56] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:00:10] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:00:12] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:04:51] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:04:58] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:06] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:09] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:23] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:40] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:47] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:05:50] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:06:02] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:06:06] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:06:19] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:07:16] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:40] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:46] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:48] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:52] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:55] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:14:59] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:03] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:09] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:32] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:52] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:55] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:15:59] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:11] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:34] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:39] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:42] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:43] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:51] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:16:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:17:06] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:20:13] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:20:40] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:21:00] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:21:29] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:21:32] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:21:37] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:21:50] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:00] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:02] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:17] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:24] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:37] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:40] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:22:49] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:23:05] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:23:16] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 18:23:21] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:45:42] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:45:45] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:01] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:21] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:23] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:28] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:34] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:41] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:42] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:46] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:46:54] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:47:08] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:47:11] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:47:18] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
+[2024-06-12 21:47:23] [ ERROR] [GlobalExceptionHandler:17] No static resource favicon.ico.
