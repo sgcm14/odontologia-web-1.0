@@ -35,11 +35,16 @@ public class ConfigWebSecurity {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((authz) -> authz
-                        .requestMatchers("/get_pacientes.html", "/post_pacientes.html", "/get_odontologos.html", "/post_odontologos.html").hasRole("ADMIN")
-                        .requestMatchers("/get_turnos.html", "/post_turnos.html").hasRole("USER")
+                        .requestMatchers("/h2-console/**","/odontologos/**", "/pacientes/**","/turnos/**").permitAll()
+                        .requestMatchers("/home_admin.html","/get_pacientes.html", "/post_pacientes.html", "/get_odontologos.html", "/post_odontologos.html").hasRole("ADMIN")
+                        .requestMatchers("/home_user.html","/get_turnos.html", "/post_turnos.html").hasRole("USER")
                         .anyRequest().authenticated()
                 )
-                .formLogin(withDefaults())
+                .formLogin(httpSecurityFormLoginConfigurer -> {
+                    httpSecurityFormLoginConfigurer
+                            .successHandler(new AuthenticationSucessHandler())
+                            .permitAll();
+                })
                 .logout(withDefaults());
 
         return http.build();
