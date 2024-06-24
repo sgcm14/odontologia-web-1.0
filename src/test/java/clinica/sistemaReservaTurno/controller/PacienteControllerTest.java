@@ -86,7 +86,7 @@ class PacienteControllerTest {
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andReturn();
 
-        assertTrue(respuesta.getResponse().getContentAsString().contains("paciente actualizado"));
+        assertTrue(respuesta.getResponse().getContentAsString().contains("Paciente actualizado"));
 
         Paciente pacienteVerificado = pacienteService.buscarPorID(pacienteGuardado.getId()).orElse(null);
         assertTrue(pacienteVerificado != null && "Calle Actualizada".equals(pacienteVerificado.getDomicilio().getCalle()));

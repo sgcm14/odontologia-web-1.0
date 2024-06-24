@@ -16,7 +16,6 @@ public class GlobalException {
 
     @ExceptionHandler({ResourceConflictException.class})
     public  ResponseEntity<String> tratamientoResourceConflictException(ResourceConflictException rce){
-        System.out.println(rce.getMessage());
         return ResponseEntity.status(HttpStatus.CONFLICT).body("mensaje " + rce.getMessage());
     }
 
