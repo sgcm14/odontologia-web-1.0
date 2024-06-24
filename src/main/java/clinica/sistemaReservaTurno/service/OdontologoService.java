@@ -25,12 +25,16 @@ public class OdontologoService {
         odontologoRepository.save(odontologo);
     }
 
+    public void eliminarOdontologo(Long id) {
+        odontologoRepository.deleteById(id);
+    }
+
     public Optional<Odontologo> buscarPorID(Long id) {
         return odontologoRepository.findById(id);
     }
 
-    public void eliminarOdontologo(Long id) {
-        odontologoRepository.deleteById(id);
+    public Optional<Odontologo> buscarPorMatricula(String matricula) {
+        return odontologoRepository.findByNumeroMatricula(matricula);
     }
 
 }

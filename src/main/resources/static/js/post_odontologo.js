@@ -5,11 +5,12 @@ window.addEventListener("load", function () {
 
   //Ante un submit del formulario se ejecutará la siguiente funcion
   formulario.addEventListener("submit", function (event) {
+    event.preventDefault();
     //creamos un JSON que tendrá los datos del nuevo odontologo
     const formData = {
-      numeroMatricula: document.querySelector("#numeroMatricula").value,
-      nombre: document.querySelector("#nombre").value,
-      apellido: document.querySelector("#apellido").value,
+      numeroMatricula: document.getElementById("numeroMatricula").value,
+      nombre: document.getElementById("nombre").value,
+      apellido: document.getElementById("apellido").value,
     };
 
     //invocamos utilizando la función fetch la API odontologos con el método POST que guardará
@@ -24,39 +25,34 @@ window.addEventListener("load", function () {
     };
 
     fetch(url, settings)
-      .then((response) => response.json())
+      .then((response) => {
+        let responseData = response.json();
+        return responseData;
+       })
       .then((data) => {
         //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
         //se agrego bien
-        let successAlert =
-          '<div class="alert alert-success alert-dismissible">' +
-          '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-          "<strong></strong> Odontologo Guardado </div>";
-
-        document.querySelector("#response").innerHTML = successAlert;
-        document.querySelector("#response").style.display = "block";
-        resetUploadForm();
+         let successAlert =
+                 '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+                 '<strong>Odontologo Guardado</strong>' +
+                 '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                 '</div>';
+        document.getElementById("response").innerHTML = successAlert;
+        document.getElementById("response").style.display = "block";
+        formulario.reset();
       })
       .catch((error) => {
         //Si hay algun error se muestra un mensaje diciendo que el odontologo
         //no se pudo guardar y se intente nuevamente
         let errorAlert =
-          '<div class="alert alert-danger alert-dismissible">' +
-          '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-          "<strong> Error intente nuevamente</strong> </div>";
-
-        document.querySelector("#response").innerHTML = errorAlert;
-        document.querySelector("#response").style.display = "block";
-        //se dejan todos los campos vacíos por si se quiere ingresar otro odontologo
-        resetUploadForm();
+                  '<div class="alert alert-danger alert-dismissible fade show" role="alert">' +
+                  '<strong>Error: Intente nuevamente</strong>' +
+                  '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                  '</div>';
+        document.getElementById("response").innerHTML = errorAlert;
+        document.getElementById("response").style.display = "block";
       });
   });
-
-  function resetUploadForm() {
-    document.querySelector("#titulo").value = "";
-    document.querySelector("#categoria").value = "";
-    document.querySelector("#premios").value = "";
-  }
 
   (function () {
     let pathname = window.location.pathname;

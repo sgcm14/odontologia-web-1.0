@@ -1,5 +1,7 @@
 package clinica.sistemaReservaTurno.controller;
+import clinica.sistemaReservaTurno.entity.Odontologo;
 import clinica.sistemaReservaTurno.entity.Paciente;
+import clinica.sistemaReservaTurno.exception.ResourceConflictException;
 import clinica.sistemaReservaTurno.exception.ResourceNotFoundException;
 import clinica.sistemaReservaTurno.service.PacienteService;
 
@@ -23,28 +25,51 @@ public class PacienteController {
     }
 
     @PostMapping //nos permite crear o registrar un paciente
-    public ResponseEntity<Paciente> registrarUnPaciente(@RequestBody Paciente paciente) throws ResourceNotFoundException {
+    public ResponseEntity<Paciente> registrarUnPaciente(@RequestBody Paciente paciente) throws ResourceConflictException {
         Optional<Paciente> pacienteEmailBuscado = pacienteService.buscarPorEmail(paciente.getEmail());
-        //si el email no se repite entonces lo dejo guardar
-        if (pacienteEmailBuscado.isPresent()) {
-            throw new ResourceNotFoundException("Ya existe un paciente con email: " + paciente.getEmail());
-        } else {
-            return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
+        Optional<Paciente> pacienteCedulaBuscado = pacienteService.buscarPorCedula(paciente.getCedula());
+        String mensaje = "";
+
+        if(pacienteEmailBuscado.isPresent()){
+            mensaje+="Ya existe un paciente con email: " + paciente.getEmail() + ". ";
         }
+
+        if(pacienteCedulaBuscado.isPresent()){
+            mensaje+= "Ya existe un paciente con cedula: " + paciente.getCedula();
+        }
+
+        if(!mensaje.isEmpty()) {
+            throw new ResourceConflictException(mensaje);
+        }
+
+        return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
     }
 
     @PutMapping
-    public ResponseEntity<String> actualizarPaciente(@RequestBody Paciente paciente) throws ResourceNotFoundException {
+    public ResponseEntity<String> actualizarPaciente(@RequestBody Paciente paciente) throws ResourceNotFoundException, ResourceConflictException {
         //necesitamos primeramente validar si existe o  no
         Optional<Paciente> pacienteBuscado = pacienteService.buscarPorID(paciente.getId());
-        if (pacienteBuscado.isPresent()) {
-            pacienteService.actualizarPaciente(paciente);
-            return ResponseEntity.ok("paciente actualizado");
-        } else {
-            // return  ResponseEntity.badRequest().body("no se encontro paciente");
-            //aca lanzamos la exception
-            throw new ResourceNotFoundException("No se encontró paciente con id: " + paciente.getId());
+        if(!pacienteBuscado.isPresent()){
+            throw new ResourceNotFoundException("No se encontró Paciente con id: " + paciente.getId());
         }
+
+        Optional<Paciente>  pacienteEmailBuscado= pacienteService.buscarPorEmail(paciente.getEmail());
+        Optional<Paciente> pacienteCedulaBuscado = pacienteService.buscarPorCedula(paciente.getCedula());
+        String mensaje = "";
+
+        if(pacienteEmailBuscado.isPresent() && pacienteEmailBuscado.get().getId() != paciente.getId()){
+            mensaje += "Existe otro paciente con ese email: " + paciente.getEmail();
+        }
+        if(pacienteCedulaBuscado.isPresent() && pacienteCedulaBuscado.get().getId() != paciente.getId()){
+            mensaje += "Existe otro paciente con esa cedula: " + paciente.getCedula();
+        }
+
+        if(!mensaje.isEmpty()){
+            throw new ResourceConflictException(mensaje);
+        }
+
+        pacienteService.actualizarPaciente(paciente);
+        return ResponseEntity.ok("Paciente actualizado");
 
     }
 

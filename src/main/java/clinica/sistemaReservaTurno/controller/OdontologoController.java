@@ -1,5 +1,7 @@
 package clinica.sistemaReservaTurno.controller;
 import clinica.sistemaReservaTurno.entity.Odontologo;
+import clinica.sistemaReservaTurno.entity.Paciente;
+import clinica.sistemaReservaTurno.exception.ResourceConflictException;
 import clinica.sistemaReservaTurno.exception.ResourceNotFoundException;
 import clinica.sistemaReservaTurno.service.OdontologoService;
 
@@ -23,20 +25,35 @@ public class OdontologoController {
     }
 
     @PostMapping //nos permite crear o registrar un odontologo
-    public ResponseEntity<Odontologo> registrarUnOdontologo(@RequestBody Odontologo odontologo) {
+    public ResponseEntity<Odontologo> registrarUnOdontologo(@RequestBody Odontologo odontologo) throws ResourceConflictException {
+        Optional<Odontologo> odontologoMatriculaBuscado = odontologoService.buscarPorMatricula(odontologo.getNumeroMatricula());
+        if(odontologoMatriculaBuscado.isPresent()){
+            throw new ResourceConflictException("Ya existe un odontologo con matricula " + odontologo.getNumeroMatricula());
+        }
         return ResponseEntity.ok(odontologoService.guardarOdontologo(odontologo));
     }
 
     @PutMapping
-    public ResponseEntity<String> actualizarOdontologo(@RequestBody Odontologo odontologo) throws ResourceNotFoundException {
+    public ResponseEntity<String> actualizarOdontologo(@RequestBody Odontologo odontologo) throws ResourceNotFoundException, ResourceConflictException {
         //necesitamos primeramente validar si existe o  no
         Optional<Odontologo> odontologoBuscado = odontologoService.buscarPorID(odontologo.getId());
-        if (odontologoBuscado.isPresent()) {
-            odontologoService.actualizarOdontologo(odontologo);
-            return ResponseEntity.ok("odontologo actualizado");
-        } else {
+        if(!odontologoBuscado.isPresent()){
             throw new ResourceNotFoundException("No se encontró odontologo con id: " + odontologo.getId());
         }
+
+        String mensaje = "";
+        Optional<Odontologo> odontologoMatriculaBuscado = odontologoService.buscarPorMatricula(odontologo.getNumeroMatricula());
+
+        if(odontologoMatriculaBuscado.isPresent() && odontologoMatriculaBuscado.get().getId() != odontologo.getId()){
+            mensaje += "Existe otro odontologo con esa matricula: " + odontologo.getNumeroMatricula();
+        }
+
+        if(!mensaje.isEmpty()){
+            throw new ResourceConflictException(mensaje);
+        }
+
+        odontologoService.actualizarOdontologo(odontologo);
+        return ResponseEntity.ok("Odontologo actualizado");
 
     }
 

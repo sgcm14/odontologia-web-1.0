@@ -49,6 +49,7 @@ window.addEventListener("load", function () {
 
   //Ante un submit del formulario se ejecutará la siguiente funcion
   formulario.addEventListener("submit", function (event) {
+    event.preventDefault();
     //creamos un JSON que tendrá los datos del nuevo turno
     const formData = {
       paciente: {
@@ -76,34 +77,26 @@ window.addEventListener("load", function () {
         //Si no hay ningun error se muestra un mensaje diciendo que el turno
         //se agrego bien
         let successAlert =
-          '<div class="alert alert-success alert-dismissible">' +
-          '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-          "<strong></strong> Turno Guardado </div>";
-
+                 '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+                 '<strong>Turno Guardado</strong>' +
+                 '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                 '</div>';
         document.querySelector("#response").innerHTML = successAlert;
         document.querySelector("#response").style.display = "block";
-        resetUploadForm();
+        formulario.reset();
       })
       .catch((error) => {
         //Si hay algun error se muestra un mensaje diciendo que el turno
         //no se pudo guardar y se intente nuevamente
         let errorAlert =
-          '<div class="alert alert-danger alert-dismissible">' +
-          '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-          "<strong> Error intente nuevamente</strong> </div>";
-
+                  '<div class="alert alert-danger alert-dismissible fade show" role="alert">' +
+                  '<strong>Error: Intente nuevamente</strong>' +
+                  '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>' +
+                  '</div>';
         document.querySelector("#response").innerHTML = errorAlert;
         document.querySelector("#response").style.display = "block";
-        //se dejan todos los campos vacíos por si se quiere ingresar otro turno
-        resetUploadForm();
       });
   });
-
-  function resetUploadForm() {
-    document.querySelector("#paciente").value = "";
-    document.querySelector("#odontologo").value = "";
-    document.querySelector("#fechaHoraCita").value = "";
-  }
 
   (function () {
     let pathname = window.location.pathname;

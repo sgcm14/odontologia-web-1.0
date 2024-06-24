@@ -26,6 +26,10 @@ public class PacienteService {
         pacienteRepository.save(paciente);
     }
 
+    public void eliminarPaciente(Long id) {
+        pacienteRepository.deleteById(id);
+    }
+
     public Optional<Paciente> buscarPorID(Long id) {
         return pacienteRepository.findById(id);
     }
@@ -34,7 +38,8 @@ public class PacienteService {
         return pacienteRepository.findByEmail(email);
     }
 
-    public void eliminarPaciente(Long id) {
-        pacienteRepository.deleteById(id);
+    public Optional<Paciente> buscarPorCedula(String cedula) {
+        return pacienteRepository.findByCedula(cedula);
     }
+
 }
