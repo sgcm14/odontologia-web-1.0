@@ -1,8 +1,8 @@
 package clinica.sistemaReservaTurno.controller;
+
 import clinica.sistemaReservaTurno.entity.Domicilio;
 import clinica.sistemaReservaTurno.entity.Paciente;
 import clinica.sistemaReservaTurno.service.PacienteService;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 @AutoConfigureMockMvc(addFilters = false)

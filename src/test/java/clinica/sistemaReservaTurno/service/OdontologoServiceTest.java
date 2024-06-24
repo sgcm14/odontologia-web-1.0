@@ -1,6 +1,6 @@
 package clinica.sistemaReservaTurno.service;
-import clinica.sistemaReservaTurno.entity.Odontologo;
 
+import clinica.sistemaReservaTurno.entity.Odontologo;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

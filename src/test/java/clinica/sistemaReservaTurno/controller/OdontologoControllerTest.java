@@ -1,9 +1,7 @@
 package clinica.sistemaReservaTurno.controller;
-import clinica.sistemaReservaTurno.entity.Domicilio;
-import clinica.sistemaReservaTurno.entity.Odontologo;
-import clinica.sistemaReservaTurno.entity.Paciente;
-import clinica.sistemaReservaTurno.service.OdontologoService;
 
+import clinica.sistemaReservaTurno.entity.Odontologo;
+import clinica.sistemaReservaTurno.service.OdontologoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +12,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import java.time.LocalDate;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
@@ -51,7 +47,7 @@ class OdontologoControllerTest {
 
     @Test
     public void guardarOdontologo() throws Exception {
-        Odontologo odontologo = new Odontologo("MP05", "Diego", "Torres");
+        Odontologo odontologo = new Odontologo("MP105", "Diego", "Torres");
 
         MvcResult respuesta = mockMvc.perform(MockMvcRequestBuilders.post("/odontologos")
                         .contentType(MediaType.APPLICATION_JSON)
