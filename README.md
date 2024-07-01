@@ -162,105 +162,105 @@ Es importante realizar el manejo de excepciones logueando cualquier excepción q
 
 Para poder revisar la documentación, al tener implementado security, primero te pedirá tus credenciales, las cuales deberás ingresarlas como se muestra a continuación:
 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura1.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura1.PNG)
 > Pantalla de login
 
 Luego ir a la url: http://localhost:8080/swagger-ui.html y podrás tener toda la información acerca de las APIS:
 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/doc1.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/doc1.PNG)
 > 1era Pantalla de swagger
 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/doc2.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/doc2.PNG)
 > 2da Pantalla de swagger
 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/doc3.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/doc3.PNG)
 > 3era Pantalla de swagger
 
 **Ejecución:**
 ---
 
 En esta primera vista te pedirá ingresar las credenciales:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura1.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura1.PNG)
 > Pantalla de login
 
 Si ingresamos con un tipo admin:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura2.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura2.PNG)
 > Pantalla de login - admin
 
 En esta vista podemos ver las opciones que tenemos siendo admin:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura3.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura3.PNG)
 > Pantalla de menu - admin
 
 En esta vista se observa el menu **pacientes**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura4.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura4.PNG)
 >  Pantalla de menu **pacientes**
 
 Si deseamos agregar un paciente, ingresamos a **Guardar**, agregamos los datos y le damos en **Guardar**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura5.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura5.PNG)
 > Pantalla de **agregar paciente**
 
 En esta vista se listan los **pacientes**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura6.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura6.PNG)
 > Pantalla de **listado de pacientes**
 
 Si queremos editar algun paciente le damos click al botón celeste al lado del item de nuestro interés, llenamos los datos y le damos a **modificar**. En caso queramos eliminarlo le damos click a la **x** 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura7.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura7.PNG)
 > Pantalla de **actualizar paciente**
 
 En esta vista se observa el menu **odontólogos**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura8.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura8.PNG)
 >  Pantalla de menu **odontólogos** - admin
 
 Si deseamos agregar un odontólogo, ingresamos a **Guardar**, agregamos los datos y le damos en **Guardar**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura9.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura9.PNG)
 > Pantalla de **agregar odontólogo**
 
 En esta vista se listan los **odontólogos**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura10.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura10.PNG)
 > Pantalla de **listado de ondotólogos**
 
 Si queremos editar algun odontólogo le damos click al botón celeste al lado del item de nuestro interés, llenamos los datos y le damos a **modificar**. En caso queramos eliminarlo le damos click a la **x** 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura11.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura11.PNG)
 > Pantalla de **actualizar odontólogo**
 
 En caso queramos cambiar de usuario le damos click a **Log Out** de la parte superior derecha
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura12.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura12.PNG)
 > Pantalla de logout
 
 En esta vista te mostrará el login con un mensaje de deslogueado:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura13.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura13.PNG)
 > Pantalla de login
 
 Si ingresamos con un tipo user:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura14.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura14.PNG)
 > Pantalla de login - user
 
 En esta vista podemos ver las opciones que tenemos siendo user:
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura15.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura15.PNG)
 > Pantalla de menu - user
 
 En esta vista se observa el menu **turnos**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura16.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura16.PNG)
 >  Pantalla de menu **turnos**
 
 Si deseamos agregar un turno, ingresamos a **Guardar**, podemos escoger al paciente y al odóntologo desde los selects, y escoger fecha y hora desde el calendar.
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura17.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura17.PNG)
 > Pantalla de **agregar turno**
 
 Agregamos los datos y le damos en **Guardar**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura18.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura18.PNG)
 > Pantalla de **agregar turno**
 
 En esta vista se listan los **turnos**
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura19.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura19.PNG)
 > Pantalla de **listado de turnos**
 
 Si queremos editar algun turno le damos click al botón celeste al lado del item de nuestro interés, llenamos los datos y le damos a **modificar**. En caso queramos eliminarlo le damos click a la **x** 
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura20.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura20.PNG)
 > Pantalla de **actualizar turno**
 
 En caso queramos cambiar de usuario le damos click a **Log Out** de la parte superior derecha
-![](https://raw.githubusercontent.com/sgcm14/Polo-TIC-misiones/master/ProyectoFinal/docs/Captura21.PNG)
+![](https://raw.githubusercontent.com/sgcm14/Sistema-de-reserva-de-turnos-spring/main/src/docs/Captura21.PNG)
 > Pantalla de logout
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
