@@ -35,7 +35,7 @@ public class ConfigWebSecurity {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((authz) -> authz
-                        .requestMatchers("/h2-console/**","/odontologos/**", "/pacientes/**","/turnos/**").permitAll()
+                        .requestMatchers("/h2-console/**","/odontologos/**", "/pacientes/**","/turnos/**","/swagger-ui/**").permitAll()
                         .requestMatchers("/home_admin.html","/get_pacientes.html", "/post_pacientes.html", "/get_odontologos.html", "/post_odontologos.html").hasRole("ADMIN")
                         .requestMatchers("/home_user.html","/get_turnos.html", "/post_turnos.html").hasRole("USER")
                         .anyRequest().authenticated()
